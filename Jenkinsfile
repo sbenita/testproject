@@ -1,4 +1,4 @@
-node ("conjur-node") {
+node {
   stage("test") {
     echo "hi"
     }
