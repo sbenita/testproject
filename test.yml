@@ -6,3 +6,8 @@
   tasks:
   - name: test
     command: "hostname"
+    
+  - set_stats:
+    data:
+      one_stat: 11
+    per_host: no
